@@ -1,35 +1,33 @@
 {
-  "name": "zomato-clone",
+  "name": "zomatoclone-backend",
   "version": "1.0.0",
-  "description": "Zomato backend - Node Js",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node build/index.js",
+    "start": "babel-node src/index.js",
     "dev": "nodemon --exec babel-node src/index.js",
     "build": "babel src -d build"
   },
-  "author": "Japnoor Singh",
+  "author": "Aditya Gusain",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1046.0",
+    "aws-sdk": "^2.1033.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
-    "express": "^4.17.2",
+    "express": "^4.17.1",
     "helmet": "^4.6.0",
-    "joi": "^17.5.0",
+    "joi": "^17.4.2",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.0.14",
-    "multer": "^1.4.4",
-    "nodemon": "^2.0.15",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.14",
     "passport": "^0.5.0",
     "passport-google-oauth20": "^2.0.0",
-    "passport-jwt": "^4.0.0"
-  },
-  "devDependencies": {
+    "passport-jwt": "^4.0.0",
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
     "@babel/node": "^7.16.0",
-    "@babel/preset-env": "^7.16.4"
+    "@babel/preset-env": "^7.16.0"
   }
 }
