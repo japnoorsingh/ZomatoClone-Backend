@@ -108,7 +108,7 @@ Router.get(
   passport.authenticate("google", { failureRedirect: "/" }),
   (req, res) => {
     return res.redirect(
-      `http://localhost:3000/google/${req.session.passport.user.token}`
+      `https://61e462a098345c378c83bac2--hungry-jepsen-7f6038.netlify.app/google/${req.session.passport.user.token}`
     );
   }
 );
