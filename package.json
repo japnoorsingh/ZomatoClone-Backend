@@ -4,8 +4,9 @@
   "description": "Zomato backend - Node Js",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
-    "dev": "nodemon --exec babel-node index.js"
+    "start": "babel-node build/index.js",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "build": "babel src -d build"
   },
   "author": "Japnoor Singh",
   "license": "ISC",
